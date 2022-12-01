@@ -8,3 +8,4 @@
 - NicoVideo
 - VXideos
 
+Скачать [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp/releases/latest) и положить рядом с этим помощником
