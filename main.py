@@ -92,6 +92,8 @@ else:
     cover_param = ""
 date_need = input("[Добавить в папку по дате?]+/->")
 if date_need != "-":
+    if not os.path.isdir(os.getcwd() + "/dw_data_yt/bydata"):
+        os.mkdir(os.getcwd() + "/dw_data_yt/bydata")
     current_date_f = "/bydata/" + current_date
     if not os.path.isdir(os.getcwd() + "/dw_data_yt" + current_date_f):
         os.mkdir(os.getcwd() + "/dw_data_yt" + current_date_f)
